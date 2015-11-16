@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Meals We've Had</title>
+  </head>
+  <body>
+    <div id="dinners">
+      <ul>
+      {% for meal in meals %}
+        <li>{{ meal.date }} {{ meal.dishes }}</li>
+      {% endfor %}
+      </ul>
+    </div>
+    <div id="ideas">
+      <ul>
+	{% for idea in ideas %}
+	  <li>{{ idea }}</li>
+	{% endfor %}
+      </ul>
+    </div>
+  </body>
+</html>
