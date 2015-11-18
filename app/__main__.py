@@ -22,8 +22,8 @@ def index():
     with open('/app/ideas.txt', 'r') as ideasfile:
         ideas = [i.strip() for i in ideasfile.readlines()]
 
+    # render the template with the meals and ideas
     index_template = templates.get_template("index.html")
-
     return index_template.render(meals=meals, ideas=ideas)
 
 if __name__ == "__main__":
