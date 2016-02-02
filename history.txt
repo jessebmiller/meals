@@ -1,0 +1,4 @@
+# date, dish one, dish two ...
+2016-01-31, Veggies and Egg over Rice
+2016-02-01, Acorn Squash, Red Beans and Rice
+2016-02-02, Sweet Potato, Spinach
